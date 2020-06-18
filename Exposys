@@ -1,0 +1,13 @@
+sentence=input("enter sentence")
+print(sentence)
+lst=sentence.split()
+print(lst)
+if lst[0]=="What":
+    print("Type:What")
+if lst[0]=="When":
+    print("Type:When")if lst[0]=="Who":
+    print("Type:Who")
+if lst[0]=="Is":
+    print("Type:Affirmation")
+else:
+    print("Type:Unknown")
